@@ -1,0 +1,122 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin:0px;
+  padding:0px;
+  height:100vh;
+  font-family: "Parkinsans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  background-color: lightcyan;
+}
+.container{
+  /* border:2px solid green; */
+  /* border-radius: 30px; */
+  /* height:100vh; */
+  margin: 0px;
+  /* padding:20px; */
+  background-color: lightgreen;
+  padding: 0px 0px 20px 0px;
+}
+.top{
+  background-color: lightsalmon;
+  width:100%;
+  padding:20px;
+  /* border-radius: 30px 30px 0px 0px; */
+}
+.top p{
+  font-style: italic;
+}
+.taskbar{
+  margin:30px 20px;
+  /* padding:20px; */
+}
+.taskbar input{
+  font-family: "Parkinsans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  width:80%;
+  display:flex;
+  flex-direction: column;
+  border:1px solid black;
+  margin: 10px 0px;
+  padding:10px;
+  border-radius: 20px;
+  height:50px;
+  align-items: center;
+}
+input::placeholder{
+  font-family: "Parkinsans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+button{
+  font-family: "Parkinsans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  border-radius: 5px;
+  border:0px;
+  height:35px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding:12px;
+  background-color:lightseagreen;
+  color:lightcyan;
+}
+button:hover{
+  cursor:pointer;
+}
+button:active{
+  background-color: lightcyan;
+  color:lightseagreen;
+}
+.mytask{
+  margin: 0px 20px;
+}
+.mytask ul{
+  padding:0px;
+}
+.mytask ul li{
+  display:flex;
+  margin:20px 0px;
+  align-items: center;
+}
+.mytask ul .ed{
+  margin: 0px 5px 0px 10px;  
+}
+.mytask ul .del{
+  margin: 0px 10px 0px 5px;
+}
+.mytask ul .task{
+width:80%;
+border:2px solid rgb(71, 250, 71);
+padding:10px;
+background-color: rgb(219, 249, 219);
+border-radius: 20px;
+display:flex;
+align-items: center;
+height:40px;
+color:gray;
+text-decoration: line-through;
+}
+.mytask ul .done{
+width:80%;
+border:2px solid red;
+padding:10px;
+background-color: rgb(255, 235, 235);
+border-radius: 20px;
+display:flex;
+align-items: center;
+height:40px;
+}
+.null{
+  font-style: italic;
+  color:green;
+  margin:30px;
+}
